@@ -75,7 +75,7 @@ def main():
             message.insert(0, "[DRY RUN]")
         else:
             source.rename(source.with_name(new_name))
-        if args.verbose:
+        if args.verbose or args.dry_run:
             print(*message)
 
 
