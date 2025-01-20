@@ -13,11 +13,11 @@ As I'm not releasing this script on Pypi, the easiest way to install it is throu
 
 ### `pipx`
 ```bash
-pipx install git+https://github.com/g0di/rename/main
+pipx install git+https://github.com/g0di/rename
 ```
 ### `uv`
 ```bash
-uv tool install git+https://github.com/g0di/rename/main
+uv tool install git+https://github.com/g0di/rename
 ```
 
 
